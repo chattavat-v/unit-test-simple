@@ -1,0 +1,32 @@
+{
+  "name": "unit-test-simple",
+  "version": "1.0.0",
+  "description": "unit-test-simple",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chattavat-v/unit-test-simple.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chattavat-v/unit-test-simple/issues"
+  },
+  "homepage": "https://github.com/chattavat-v/unit-test-simple#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.7.10"
+  }
+}
